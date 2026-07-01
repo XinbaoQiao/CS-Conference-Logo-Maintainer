@@ -17,7 +17,11 @@ _None._
 
 ## Suspicious source-url warnings
 
-_None._
+| Conference | Source path | Logo | Source URL | Matched terms |
+| --- | --- | --- | --- | --- |
+| CT-RSA | conference/SC/ct-rsa.yml | CT-RSA.svg | https://repo.wsu.edu/favicon/icon.svg | favicon |
+| SRDS | conference/SC/srds.yml | SRDS.svg | https://upload.wikimedia.org/wikipedia/commons/0/0d/Uniroma1.svg | wikimedia |
+| CP | conference/SE/cp.yml | CP.jpg | https://cp2026.a4cp.org/images/lisbon/diego-garcia-CVZ0y7APRtU-unsplash.jpg | unsplash |
 
 ## Acronym/generic-stem warnings
 
