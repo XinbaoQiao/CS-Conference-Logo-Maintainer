@@ -1,6 +1,6 @@
 # CCF Conference Logo Update List
 
-Generated at: 2026-07-01T07:20:11+00:00
+Generated at: 2026-08-01T06:00:23+00:00
 
 Data source: CCFDDL conference YAML from https://github.com/ccfddl/ccf-deadlines
 
@@ -11,7 +11,7 @@ These logos or their source pages include a year marker, so rerun the fetcher wh
 | Conference | CCF | Year | Logo | Reason | Official link |
 | --- | --- | --- | --- | --- | --- |
 | AAAI | A | 2027 | AAAI.png | source contains year marker 2026 | https://aaai.org/conference/aaai/aaai-27/ |
-| ACL | A | 2026 | ACL.png | source contains latest conference year 2026 | https://2026.aclweb.org/ |
+| ACL | A | 2027 | ACL.png | source contains latest conference year 2027 | https://2027.aclweb.org/ |
 | ACM MM | A | 2026 | ACM MM.png | source contains latest conference year 2026 | https://2026.acmmm.org/ |
 | ACM SIGGRAPH | A | 2026 | ACM SIGGRAPH.png | source contains latest conference year 2026 | https://s2026.siggraph.org/ |
 | ASPLOS | A | 2027 | ASPLOS.png | source contains latest conference year 2027 | https://www.asplos-conference.org/asplos2027/cfp/ |
@@ -27,13 +27,13 @@ These logos or their source pages include a year marker, so rerun the fetcher wh
 | FOCS | A | 2026 | FOCS.gif | source contains latest conference year 2026 | https://sanjeevkhanna.org/FOCS2026_CFP.html |
 | ICCV | A | 2025 | ICCV.svg | source contains latest conference year 2025 | https://iccv.thecvf.com/Conferences/2025 |
 | ICDE | A | 2027 | ICDE.png | source contains latest conference year 2027 | https://icde2027.github.io/ |
-| ICLR | A | 2026 | ICLR.svg | source contains latest conference year 2026 | https://iclr.cc/Conferences/2026 |
+| ICLR | A | 2027 | ICLR.svg | source contains latest conference year 2027 | https://iclr.cc/Conferences/2027 |
 | ICML | A | 2026 | ICML.svg | source contains latest conference year 2026 | https://icml.cc/Conferences/2026 |
 | IEEE VIS | A | 2026 | IEEE VIS.svg | source contains latest conference year 2026 | https://ieeevis.org/year/2026/welcome |
 | INFOCOM | A | 2027 | INFOCOM.webp | source contains latest conference year 2027 | https://infocom2027.ieee-infocom.org/ |
 | ISCA | A | 2026 | ISCA.svg | source contains latest conference year 2026 | https://iscaconf.org/isca2026/ |
 | LICS | A | 2026 | LICS.png | conference place/year metadata present | https://lics.siglog.org/lics26/ |
-| MobiCom | A | 2026 | MobiCom.png | source contains latest conference year 2026 | https://sigmobile.org/mobicom/2026/ |
+| MobiCom | A | 2027 | MobiCom.png | source contains latest conference year 2027 | https://www.sigmobile.org/mobicom/2027/ |
 | NDSS | A | 2027 | NDSS.svg | source contains latest conference year 2027 | https://www.ndss-symposium.org/ndss2027/ |
 | NSDI | A | 2027 | NSDI.png | conference place/year metadata present | https://www.usenix.org/conference/nsdi27 |
 | NeurIPS | A | 2026 | NeurIPS.svg | source contains latest conference year 2026 | https://neurips.cc/Conferences/2026 |
@@ -42,7 +42,7 @@ These logos or their source pages include a year marker, so rerun the fetcher wh
 | S&P | A | 2027 | S&P.png | source contains latest conference year 2027 | https://sp2027.ieee-security.org/index.html |
 | SC | A | 2026 | SC.svg | source contains year marker 2025 | https://sc26.supercomputing.org/ |
 | SIGCOMM | A | 2026 | SIGCOMM.svg | source contains latest conference year 2026 | https://conferences.sigcomm.org/sigcomm/2026/ |
-| SIGKDD | A | 2027 | SIGKDD.png | source contains latest conference year 2027 | https://kdd2027.kdd.org/ |
+| SIGKDD | A | 2027 | SIGKDD.webp | source contains latest conference year 2027 | https://kdd2027.kdd.org/ |
 | SIGMOD | A | 2027 | SIGMOD.png | source contains latest conference year 2027 | https://2027.sigmod.org/ |
 | SIGOPS ATC | A | 2026 | SIGOPS ATC.jpg | source contains latest conference year 2026 | https://sigops.org/s/conferences/atc/2026/index.html |
 | SOSP | A | 2026 | SOSP.png | source contains latest conference year 2026 | https://sigops.org/s/conferences/sosp/2026/index.html |
@@ -50,13 +50,13 @@ These logos or their source pages include a year marker, so rerun the fetcher wh
 | UIST | A | 2026 | UIST.png | source contains latest conference year 2026 | https://uist.acm.org/2026/ |
 | USENIX Security | A | 2027 | USENIX Security.png | conference place/year metadata present | https://www.usenix.org/conference/usenixsecurity27 |
 | UbiComp/ISWC | A | 2026 | UbiComp-ISWC.png | source contains latest conference year 2026 | https://www.ubicomp.org/ubicomp-iswc-2026 |
-| VLDB | A | 2027 | VLDB.jpg | source contains latest conference year 2027 | https://www.vldb.org/2027/ |
+| VLDB | A | 2027 | VLDB.webp | source contains latest conference year 2027 | https://www.vldb.org/2027/ |
 | ACSAC | B | 2026 | ACSAC.png | conference place/year metadata present | https://www.acsac.org/ |
 | CADE | B | 2025 | CADE.jpg | conference place/year metadata present | https://www.dhbw-stuttgart.de/cade-30/ |
 | CAiSE | B | 2026 | CAiSE.png | source contains latest conference year 2026 | https://caise26.polimi.it/ |
 | CIDR | B | 2027 | CIDR.png | source contains latest conference year 2027 | https://www.cidrdb.org/cidr2027/ |
 | CIKM | B | 2026 | CIKM.png | source contains latest conference year 2026 | https://cikm2026.diag.uniroma1.it/ |
-| COLING | B | 2025 | COLING.png | source contains latest conference year 2025 | https://coling2025.org/ |
+| COLING | B | 2027 | COLING.png | source contains latest conference year 2027 | https://2027.coling-iccl.org/ |
 | COLT | B | 2026 | COLT.jpg | source contains latest conference year 2026 | https://learningtheory.org/colt2026/ |
 | CONCUR | B | 2026 | CONCUR.png | source contains latest conference year 2026 | https://confest-2026.github.io/concur/ |
 | CP | B | 2026 | CP.jpg | source contains latest conference year 2026 | https://cp2026.a4cp.org/ |
@@ -64,11 +64,11 @@ These logos or their source pages include a year marker, so rerun the fetcher wh
 | DASFAA | B | 2026 | DASFAA.svg | source contains latest conference year 2026 | https://dasfaa2026.github.io/ |
 | DATE | B | 2027 | DATE.png | source contains latest conference year 2027 | https://www.date-conference.com/date-2027-call-papers |
 | DCC | B | 2027 | DCC.png | conference place/year metadata present | https://datacompressionconference.org/ |
-| DSN | B | 2026 | DSN.png | source contains latest conference year 2026 | https://dsn2026.github.io |
+| DSN | B | 2027 | DSN.png | source contains latest conference year 2027 | https://dsn2027-berlin.github.io/ |
 | ECAI | B | 2025 | ECAI.png | source contains latest conference year 2025 | https://ecai2025.org/deadlines/ |
 | ECCV | B | 2026 | ECCV.svg | source contains latest conference year 2026 | https://eccv.ecva.net/ |
-| ECML-PKDD | B | 2026 | ECML-PKDD.jpg | source contains latest conference year 2026 | https://ecmlpkdd.org/2026/ |
-| ECOOP | B | 2025 | ECOOP.jpg | source contains latest conference year 2025 | https://2025.ecoop.org/ |
+| ECML-PKDD | B | 2027 | ECML-PKDD.webp | source contains latest conference year 2027 | https://ecmlpkdd.org/2027/ |
+| ECOOP | B | 2025 | ECOOP.webp | source contains latest conference year 2025 | https://2025.ecoop.org/ |
 | ECSCW | B | 2026 | ECSCW.png | source contains latest conference year 2026 | https://ecscw.eusset.eu/2026 |
 | EDBT | B | 2027 | EDBT.png | source contains latest conference year 2027 | https://edbticdt2027.github.io/ |
 | EGSR | B | 2026 | EGSR.png | source contains latest conference year 2026 | https://egsr2026.inria.fr/ |
@@ -90,16 +90,15 @@ These logos or their source pages include a year marker, so rerun the fetcher wh
 | ICDT | B | 2027 | ICDT.png | source contains latest conference year 2027 | https://edbticdt2027.github.io/ |
 | ICME | B | 2026 | ICME.png | source contains latest conference year 2026 | https://2026.ieeeicme.org/ |
 | ICNP | B | 2026 | ICNP.svg | source contains latest conference year 2026 | https://icnp26.cs.ucr.edu/ |
-| ICRA | B | 2026 | ICRA.png | source contains latest conference year 2026 | https://2026.ieee-icra.org/ |
+| ICRA | B | 2027 | ICRA.jpg | source contains latest conference year 2027 | https://2027.ieee-icra.org/ |
 | ICS | B | 2026 | ICS.jpg | source contains latest conference year 2026 | https://dipsa-qub.github.io/ICS2026-webpage/ |
 | IJCAI | B | 2026 | IJCAI.png | source contains latest conference year 2026 | https://2026.ijcai.org/ |
 | IMC | B | 2026 | IMC.svg | source contains latest conference year 2026 | https://conferences.sigcomm.org/imc/2026/ |
-| IPDPS | B | 2026 | IPDPS.jpg | source contains latest conference year 2026 | https://www.ipdps.org/ |
+| IPDPS | B | 2027 | IPDPS.jpg | source contains latest conference year 2027 | https://www.ipdps.org/ |
 | IPSN | B | 2022 | IPSN.svg | source contains latest conference year 2022 | https://ipsn.acm.org/2022/ |
 | ISCAS | B | 2027 | ISCAS.png | source contains latest conference year 2027 | https://2027.ieee-iscas.org/ |
 | ISMAR | B | 2026 | ISMAR.png | source contains latest conference year 2026 | https://www.ieeeismar.net/2026/ |
 | ISSRE | B | 2026 | ISSRE.png | source contains latest conference year 2026 | https://cyprusconferences.org/issre2026/ |
-| ISWC | B | 2026 | ISWC.png | source contains latest conference year 2026 | https://iswc2026.semanticweb.org/ |
 | ITC | B | 2026 | ITC.png | source contains latest conference year 2026 | https://www.itctestweek.org/ |
 | IUI | B | 2027 | IUI.png | source contains latest conference year 2027 | https://iui.hosting.acm.org/2027/ |
 | KR | B | 2026 | KR.png | source contains latest conference year 2026 | https://kr.org/KR2026/ |
@@ -108,23 +107,23 @@ These logos or their source pages include a year marker, so rerun the fetcher wh
 | MoDELS | B | 2022 | MoDELS.svg | source contains latest conference year 2022 | https://conf.researchr.org/home/models-2022 |
 | MobiHoc | B | 2026 | MobiHoc.jpg | source contains latest conference year 2026 | https://www.sigmobile.org/mobihoc/2026/ |
 | NOSSDAV | B | 2026 | NOSSDAV.png | source contains latest conference year 2026 | https://nossdav.org/2026/ |
-| PACT | B | 2025 | PACT.png | source contains latest conference year 2025 | https://pact2025.github.io/ |
-| PKC | B | 2026 | PKC.jpg | source contains latest conference year 2026 | https://pkc.iacr.org/2026/ |
+| PACT | B | 2026 | PACT.png | source contains latest conference year 2026 | https://pact2026.github.io/ |
+| PKC | B | 2027 | PKC.png | source contains latest conference year 2027 | https://pkc.iacr.org/2027/ |
 | PPSN | B | 2026 | PPSN.png | source contains latest conference year 2026 | https://ppsn2026.disi.unitn.it/ |
 | RAID | B | 2026 | RAID.webp | source contains latest conference year 2026 | https://raid2026.org |
 | RE | B | 2026 | RE.jpg | source contains latest conference year 2026 | https://conf.researchr.org/home/RE-2026 |
 | RECOMB | B | 2026 | RECOMB.svg | source contains latest conference year 2026 | https://recomb.org/recomb2026/ |
 | RecSys | B | 2026 | RecSys.png | source contains latest conference year 2026 | https://recsys.acm.org/recsys26 |
-| SECON | B | 2026 | SECON.webp | source contains latest conference year 2026 | https://secon2026.ieee-secon.org/important-dates |
+| SECON | B | 2027 | SECON.webp | source contains latest conference year 2027 | https://secon2027.ieee-secon.org/ |
 | SGP | B | 2026 | SGP.jpg | source contains latest conference year 2026 | https://sgp26.org/ |
 | SIGMETRICS | B | 2027 | SIGMETRICS.svg | source contains latest conference year 2027 | https://www.sigmetrics.org/sigmetrics2027/ |
 | SPM | B | 2025 | SPM.svg | source contains latest conference year 2025 | https://spmconf2025.github.io/SPM2025/ |
 | SRDS | B | 2026 | SRDS.svg | source contains latest conference year 2026 | https://srds-conference.org/ |
 | UAI | B | 2026 | UAI.png | source contains latest conference year 2026 | https://www.auai.org/uai2026/ |
-| VMCAI | B | 2026 | VMCAI.jpg | source contains latest conference year 2026 | https://conf.researchr.org/home/VMCAI-2026 |
+| VMCAI | B | 2026 | VMCAI.png | source contains latest conference year 2026 | https://conf.researchr.org/home/VMCAI-2026 |
 | WINE | B | 2026 | WINE.png | source contains latest conference year 2026 | https://wine2026conf.github.io/ |
 | WSDM | B | 2027 | WSDM.png | source contains latest conference year 2027 | https://wsdm-conference.org/2027/ |
-| 3DV | C | 2026 | 3DV.png | source contains latest conference year 2026 | https://3dvconf.github.io/2026/ |
+| 3DV | C | 2027 | 3DV.png | source contains latest conference year 2027 | https://3dvconf.github.io/2027/ |
 | ACCV | C | 2026 | ACCV.png | source contains latest conference year 2026 | https://accv2026.org/ |
 | ACISP | C | 2026 | ACISP.jpg | source contains latest conference year 2026 | https://acisp-conference.github.io/acisp2026/index.html |
 | ACML | C | 2026 | ACML.png | source contains latest conference year 2026 | https://www.acml-conf.org/2026/ |
@@ -148,7 +147,7 @@ These logos or their source pages include a year marker, so rerun the fetcher wh
 | DAI | C | 2026 | DAI.webp | source contains latest conference year 2026 | https://www.adai.ai/dai/2026/index.html |
 | DIMVA | C | 2026 | DIMVA.png | source contains latest conference year 2026 | https://www.dimva.org/dimva2026/ |
 | DIS | C | 2026 | DIS.png | source contains latest conference year 2026 | https://dis.acm.org/2026/ |
-| ETS | C | 2026 | ETS.jpg | source contains latest conference year 2026 | https://ets2026.uniwa.gr/ |
+| ETS | C | 2026 | ETS.webp | source contains latest conference year 2026 | https://ets2026.uniwa.gr/ |
 | EuroS&P | C | 2026 | EuroS&P.svg | source contains latest conference year 2026 | https://eurosp2026.ieee-security.org/ |
 | FCCM | C | 2025 | FCCM.jpg | source contains latest conference year 2025 | https://www.fccm.org/ |
 | FORTE | C | 2026 | FORTE.svg | source contains latest conference year 2026 | https://www.discotec.org/2026/forte |
@@ -171,16 +170,14 @@ These logos or their source pages include a year marker, so rerun the fetcher wh
 | ICST | C | 2026 | ICST.svg | source contains latest conference year 2026 | https://conf.researchr.org/home/icst-2026 |
 | ICTAI | C | 2026 | ICTAI.png | source contains latest conference year 2026 | https://ictai.computer.org/2026/ |
 | IEEE CEC | C | 2026 | IEEE CEC.svg | source contains latest conference year 2026 | https://attend.ieee.org/wcci-2026/ieee-cec-2025/ |
-| IJCNN | C | 2026 | IJCNN.jpg | source contains latest conference year 2026 | https://attend.ieee.org/wcci-2026/ |
+| IJCNN | C | 2027 | IJCNN.webp | source contains latest conference year 2027 | https://ijcnn.org/2027 |
 | IROS | C | 2026 | IROS.png | source contains latest conference year 2026 | https://2026.ieee-iros.org/ |
 | ISBRA | C | 2025 | ISBRA.png | source contains latest conference year 2025 | https://www.helsinki.fi/en/conferences/isbra2025 |
 | ISC | C | 2026 | ISC.svg | source contains latest conference year 2026 | https://isc2026.github.io/ |
 | ISCC | C | 2026 | ISCC.png | source contains latest conference year 2026 | https://ieee-iscc.computer.org/2026/ |
-| ISPASS | C | 2026 | ISPASS.png | source contains latest conference year 2026 | https://ispass.org/ispass2026/ |
-| MMAsia | C | 2025 | MMAsia.png | source contains latest conference year 2025 | https://mmasia2025.org/ |
+| MMAsia | C | 2026 | MMAsia.webp | source contains latest conference year 2026 | https://www.mmasia2026.org/ |
 | MMM | C | 2027 | MMM.png | source contains latest conference year 2027 | https://www.mmm2027.net/ |
 | NCMMSC | C | 2026 | NCMMSC.jpg | source contains latest conference year 2026 | https://www.ncmmsc.org.cn/ |
-| NLPCC | C | 2026 | NLPCC.svg | source contains latest conference year 2026 | http://tcci.ccf.org.cn/conference/2026/ |
 | NSPW | C | 2026 | NSPW.jpg | source contains latest conference year 2026 | https://www.nspw.org/2026 |
 | Networking | C | 2026 | Networking.jpg | source contains latest conference year 2026 | https://networking.ifip.org/2026/ |
 | PAKDD | C | 2026 | PAKDD.png | source contains latest conference year 2026 | https://www.pakdd2026.org/ |
@@ -256,6 +253,7 @@ These entries did not produce a high-confidence logo candidate automatically.
 | IEEE/ACM CGO | B | 2027 | no_logo_candidate | No usable logo-like image candidates. | https://conf.researchr.org/home/cgo-2027 |
 | IJCAR | B | 2026 | no_logo_candidate | No usable logo-like image candidates. | https://www.floc26.org/ijcar |
 | ISS | B | 2025 | no_logo_candidate | No usable logo-like image candidates. | https://iss.acm.org/2025/ |
+| ISWC | B | 2026 | no_logo_candidate | No usable logo-like image candidates. | https://iswc2026.semanticweb.org/ |
 | IWQoS | B | 2026 | no_logo_candidate | Image is a stock security/technology illustration, not IWQoS conference branding. | https://iwqos2026.ieee-iwqos.org/ |
 | InterSpeech | B | 2026 | no_logo_candidate | rejected https://interspeech2026.org/_next/static/chunks/webpack-4d3a773ae3ceb930.js?dpl=dpl_66yQARHn2xpXeXrqJ686m9QKCiw6 | https://interspeech2026.org/ |
 | LCTES | B | 2024 | no_logo_candidate | Image is a city canal photo, not LCTES conference branding. | https://pldi24.sigplan.org/home/LCTES-2024 |
@@ -313,6 +311,7 @@ These entries did not produce a high-confidence logo candidate automatically.
 | INSCRYPT | C | 2026 | no_logo_candidate | Image is a Hong Kong skyline photo, not INSCRYPT conference branding. | https://inscrypt2026.comp.polyu.edu.hk |
 | ISAAC | C | 2026 | no_logo_candidate | Image is a decorative landscape background without ISAAC conference branding. | https://www.algo-door.com/isaac2026/index.html |
 | ISPA | C | 2021 | no_logo_candidate | Official-site candidate is cropped-ny1.jpg, a New York/header photo rather than a conference logo. | http://www.cloud-conf.net/ispa2021/ |
+| ISPASS | C | 2026 | page_error | The read operation timed out | https://ispass.org/ispass2026/ |
 | ITC-Asia | C | 2026 | no_logo_candidate | No usable logo-like image candidates. | https://www.castest.com.cn/itcasia_2026 |
 | Internetware | C | 2026 | no_logo_candidate | Image is a coast/city photo, not Internetware conference branding. | https://conf.researchr.org/home/internetware-2026 |
 | JCC | C | 2026 | page_error | <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)> | https://jointcloud.cloud |
@@ -321,6 +320,7 @@ These entries did not produce a high-confidence logo candidate automatically.
 | MSN | C | 2026 | no_logo_candidate | https://ieee-msn.org/images/resources/logo.png: HTTP Error 404: Not Found; https://ieee-msn.org/images/ningbo/ningbo.jpg: HTTP Error 404: Not Found; https://ieee-msn.org/images/mstile-144x144.png: HTTP Error 404: Not Found; https://conference.cs.cityu.edu.hk/msn2020/images/logo.png: HTTP Error 404: Not Found | https://ieee-msn.org/2026 |
 | MSR | C | 2026 | no_logo_candidate | No usable logo-like image candidates. | https://2026.msrconf.org/ |
 | MSWiM | C | 2026 | no_logo_candidate | Image is a bridge/night photo, not MSWiM conference branding. | https://mswimconf.com/2026/ |
+| NLPCC | C | 2026 | page_error | HTTP Error 502: Bad Gateway | http://tcci.ccf.org.cn/conference/2026/ |
 | REFSQ | C | 2027 | no_logo_candidate | No usable logo-like image candidates. | https://2027.refsq.org/ |
 | RV | C | 2026 | no_logo_candidate | Manual correction provides only a conference URL; skip crawling and leave logo blank. | https://rv2026.smithengineering.queensu.ca/ |
 | SACMAT | C | 2026 | no_logo_candidate | Image is a LinkedIn icon, not SACMAT conference branding. | https://www.sacmat.org/2026/index.php |
