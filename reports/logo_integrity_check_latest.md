@@ -13,7 +13,9 @@ _None._
 
 ## Duplicate content-hash warnings
 
-_None._
+| Hash | Conference titles | Logo files | Source paths | Warning |
+| --- | --- | --- | --- | --- |
+| ae521ef9696dc3bd | EUROCRYPT, PKC | EUROCRYPT.png, PKC.png | conference/SC/eurocrypt.yml; conference/SC/pkc.yml | same image bytes used by multiple distinct conference titles |
 
 ## Suspicious source-url warnings
 

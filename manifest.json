@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-01T07:20:11+00:00",
-  "started_at": "2026-07-01T07:08:15+00:00",
+  "generated_at": "2026-08-01T06:00:23+00:00",
+  "started_at": "2026-08-01T05:51:25+00:00",
   "data_source": {
     "ccfddl_tree": "https://api.github.com/repos/ccfddl/ccf-deadlines/git/trees/main?recursive=1",
     "ccfddl_raw_base": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/"
   },
   "summary": {
-    "existing_target": 164,
-    "no_logo_candidate": 104,
-    "downloaded": 30,
-    "page_error": 15,
+    "existing_target": 174,
+    "no_logo_candidate": 105,
+    "downloaded": 17,
+    "page_error": 17,
     "reused_existing": 1
   },
   "entries": [
@@ -126,33 +126,34 @@
       "sub": "AI",
       "dblp": "acl",
       "source_path": "conference/AI/acl.yml",
-      "conference_year": 2026,
-      "conference_id": "acl26",
-      "conference_date": "July 2 - 7, 2026",
-      "conference_place": "San Diego, California, United States",
-      "official_link": "https://2026.aclweb.org/",
-      "page_title": "The 64th Annual Meeting of the Association for Computational Linguistics - ACL 2026",
+      "conference_year": 2027,
+      "conference_id": "acl27",
+      "conference_date": "August 17-22, 2027",
+      "conference_place": "Kyoto, Japan",
+      "official_link": "https://2027.aclweb.org/",
+      "page_title": "The 65th Annual Meeting of the Association for Computational Linguistics - ACL 2027",
       "candidate_count": 17,
       "ranked_candidate_count": 5,
       "observed_years": [
         2013,
         2025,
-        2026
+        2026,
+        2027
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "ACL.png",
       "sha256": "36774c29607e808b076192650f7a918269f50dd1e4f9d59dc57ffc4e003f88ea",
-      "source_url": "https://2026.aclweb.org/assets/images/logos/acl-logo.png",
+      "source_url": "https://2027.aclweb.org/assets/images/acl-plain-logo.png",
       "source_kind": "official_site_candidate",
-      "width": 1200,
-      "height": 230,
+      "width": 160,
+      "height": 112,
       "mime": "image/png",
-      "score": 245,
+      "score": 196,
       "asset_years": [
-        2026
+        2027
       ],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "ACML",
@@ -353,35 +354,34 @@
       "sub": "AI",
       "dblp": "coling",
       "source_path": "conference/AI/coling.yml",
-      "conference_year": 2025,
-      "conference_id": "coling25",
-      "conference_date": "Jan 19 - Jan 24, 2025",
-      "conference_place": "Abu Dhabi, UAE",
-      "official_link": "https://coling2025.org/",
-      "page_title": "The 31st International Conference on Computational Linguistics - COLING 2025",
-      "candidate_count": 10,
+      "conference_year": 2027,
+      "conference_id": "coling27",
+      "conference_date": "May 9-14, 2027",
+      "conference_place": "Macau SAR, China",
+      "official_link": "https://2027.coling-iccl.org/",
+      "page_title": "The 32nd International Conference on Computational Linguistics - COLING 2027",
+      "candidate_count": 8,
       "ranked_candidate_count": 3,
       "observed_years": [
         2013,
         2020,
-        2023,
-        2024,
-        2025
+        2026,
+        2027
       ],
       "status": "existing_target",
       "logo_file": "COLING.png",
       "sha256": "ca8474a9dbbc22174a7fdfae473f5fb65e0b51bb9221e7bcde01540dccf4821b",
-      "source_url": "https://coling2025.org/assets/images/logo/logo-full.png",
+      "source_url": "https://2027.coling-iccl.org/assets/images/logo/coling2027-logo.png",
       "source_kind": "official_site_candidate",
-      "width": 2893,
-      "height": 581,
+      "width": 3941,
+      "height": 1837,
       "mime": "image/png",
-      "score": 75,
+      "score": 250,
       "asset_years": [
-        2025
+        2027
       ],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2025"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "COLT",
@@ -402,7 +402,7 @@
         2025,
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "COLT.jpg",
       "sha256": "03b7471c1e6d3f0f2d60d8e13df57df6abedf6ad51c538cc2143d2fdefe6009d",
       "source_url": "https://learningtheory.org/colt2026/images/san_diego.jpg",
@@ -812,8 +812,8 @@
       "conference_place": "Vienna, Austria",
       "official_link": "https://icdar2026.org/",
       "page_title": "ICDAR 2026 – The 20th International Conference on Document Analysis and Recognition, Vienna, Austria",
-      "candidate_count": 11,
-      "ranked_candidate_count": 7,
+      "candidate_count": 12,
+      "ranked_candidate_count": 8,
       "observed_years": [
         2000,
         2026
@@ -841,13 +841,13 @@
       "sub": "AI",
       "dblp": "iclr",
       "source_path": "conference/AI/iclr.yml",
-      "conference_year": 2026,
-      "conference_id": "iclr26",
-      "conference_date": "May 01-05, 2026",
-      "conference_place": "Brazil",
-      "official_link": "https://iclr.cc/Conferences/2026",
+      "conference_year": 2027,
+      "conference_id": "iclr27",
+      "conference_date": "TBD",
+      "conference_place": "San Francisco, CA, USA",
+      "official_link": "https://iclr.cc/Conferences/2027",
       "observed_years": [
-        2026
+        2027
       ],
       "manual_override_action": "exact_logo",
       "manual_override_note": "CorrectedLOGO.md confirms stable ICLR logo.",
@@ -861,7 +861,7 @@
       "mime": "image/svg+xml",
       "asset_years": [],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "ICML",
@@ -904,7 +904,7 @@
         2025,
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "ICML.svg",
       "sha256": "b42f6d492543f794bc1ffd7eacdb1579a8b6ea352b806cc933c0b65576520da3",
       "source_url": "https://icml.cc/static/core/img/ICML-logo.svg",
@@ -956,7 +956,7 @@
       "conference_place": "Lyon, France",
       "official_link": "https://icpr2026.org/",
       "page_title": "ICPR 2026 - International Conference on Pattern Recognition | ICPR2026website",
-      "candidate_count": 27,
+      "candidate_count": 35,
       "ranked_candidate_count": 8,
       "observed_years": [
         2026
@@ -983,34 +983,34 @@
       "sub": "AI",
       "dblp": "icra",
       "source_path": "conference/AI/icra.yml",
-      "conference_year": 2026,
-      "conference_id": "icra26",
-      "conference_date": "Jun 1-5, 2026",
-      "conference_place": "Vienna, Austria",
-      "official_link": "https://2026.ieee-icra.org/",
-      "page_title": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
-      "candidate_count": 17,
+      "conference_year": 2027,
+      "conference_id": "icra27",
+      "conference_date": "May 24-28, 2027",
+      "conference_place": "Seoul, Republic of Korea",
+      "official_link": "https://2027.ieee-icra.org/",
+      "page_title": "2027 IEEE International Conference on Robotics and Automation (ICRA) IEEE ICRA 2027",
+      "candidate_count": 79,
       "ranked_candidate_count": 8,
       "observed_years": [
         2024,
-        2025,
-        2026
+        2026,
+        2027
       ],
       "status": "downloaded",
-      "logo_file": "ICRA.png",
-      "sha256": "df57dd8aba827ee770daa9a2c5024332c8505a294efa15a382838afc2a93eeb4",
-      "source_url": "https://2026.ieee-icra.org/wp-content/uploads/sites/2/2025/05/ICRA-VIE26-logo.png",
+      "logo_file": "ICRA.jpg",
+      "sha256": "bda38c17160fd005779de4339949067122b1eae5075270b0a899c7fb68ce1a78",
+      "source_url": "https://2027.ieee-icra.org/wp-content/uploads/sites/4/2024/04/ICRA2027_LOGOICRA-1-scaled.jpg",
       "source_kind": "official_site_candidate",
-      "width": 696,
-      "height": 171,
-      "mime": "image/png",
-      "score": 223,
+      "width": 2560,
+      "height": 537,
+      "mime": "image/jpeg",
+      "score": 250,
       "asset_years": [
-        2025,
-        2026
+        2024,
+        2027
       ],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "ICTAI",
@@ -1060,8 +1060,8 @@
       "conference_place": "Bremen, Germany",
       "official_link": "https://2026.ijcai.org/",
       "page_title": "IJCAI 2026",
-      "candidate_count": 12,
-      "ranked_candidate_count": 5,
+      "candidate_count": 16,
+      "ranked_candidate_count": 7,
       "observed_years": [
         2025,
         2026
@@ -1113,31 +1113,30 @@
       "sub": "AI",
       "dblp": "ijcnn",
       "source_path": "conference/AI/ijcnn.yml",
-      "conference_year": 2026,
-      "conference_id": "ijcnn2026",
-      "conference_date": "June 21 - 26, 2026",
-      "conference_place": "Maastricht Exhibition & Congress Center, Maastricht, The Netherlands",
-      "official_link": "https://attend.ieee.org/wcci-2026/",
-      "page_title": "2026 IEEE World Congress on Computational Intelligence",
-      "candidate_count": 74,
+      "conference_year": 2027,
+      "conference_id": "ijcnn2027",
+      "conference_date": "June 14 - 18, 2027",
+      "conference_place": "Cape Town, South Africa",
+      "official_link": "https://ijcnn.org/2027",
+      "page_title": "Home | IJCNN 2027",
+      "candidate_count": 126,
       "ranked_candidate_count": 8,
       "observed_years": [
-        2026
+        2002,
+        2027
       ],
-      "status": "downloaded",
-      "logo_file": "IJCNN.jpg",
-      "sha256": "8877619ea488ceb7e04220f42114cdc84014a8033bb192da85f2b3fb9b5160ca",
-      "source_url": "https://attend.ieee.org/wcci-2026/wp-content/uploads/sites/689/OAI_OpenAI_Wordmark_Black-e1774597806949.jpeg",
+      "status": "existing_target",
+      "logo_file": "IJCNN.webp",
+      "sha256": "dcc90197223f29734da7e34e68799af60225adb111dd1c5464a30bdb35e8d239",
+      "source_url": "https://confcats-siteplex.s3.amazonaws.com/ijcnn/glide-cache/containers/logos/ijcnn27-logo-hr_color-simple.webp/e36784d58dd02682aca1842b8374b346/ijcnn27-logo-hr_color-simple.webp",
       "source_kind": "official_site_candidate",
-      "width": 930,
-      "height": 307,
-      "mime": "image/jpeg",
-      "score": 121,
-      "asset_years": [
-        2026
-      ],
+      "width": 1024,
+      "height": 341,
+      "mime": "image/webp",
+      "score": 250,
+      "asset_years": [],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "IROS",
@@ -1152,7 +1151,7 @@
       "conference_place": "Pittsburgh, PA, USA",
       "official_link": "https://2026.ieee-iros.org/",
       "page_title": "IROS 2026 | IEEE/RSJ International Conference on Intelligent Robots and Systems",
-      "candidate_count": 120,
+      "candidate_count": 95,
       "ranked_candidate_count": 8,
       "observed_years": [
         2025,
@@ -1313,41 +1312,12 @@
       "conference_date": "November 3-5, 2026",
       "conference_place": "Macau, China",
       "official_link": "http://tcci.ccf.org.cn/conference/2026/",
-      "page_title": "Home | NLPCC 2026 | Macau",
-      "candidate_count": 13,
-      "ranked_candidate_count": 6,
+      "status": "page_error",
+      "error": "HTTP Error 502: Bad Gateway",
       "observed_years": [
-        2000,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
         2026
       ],
-      "status": "existing_target",
-      "logo_file": "NLPCC.svg",
-      "sha256": "6e3d0087feaab70fe6b9d07cf1f8a496b9ac8463ced1cc58e7cbd3d7c87d485c",
-      "source_url": "http://tcci.ccf.org.cn/conference/2026/logo.svg",
-      "source_kind": "official_site_candidate",
-      "width": 2566,
-      "height": 1020,
-      "mime": "image/svg+xml",
-      "score": 355,
-      "asset_years": [
-        2026
-      ],
-      "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "needs_annual_update": false
     },
     {
       "title": "PPSN",
@@ -1470,14 +1440,14 @@
       "sub": "CG",
       "dblp": "3dim",
       "source_path": "conference/CG/3dv.yml",
-      "conference_year": 2026,
-      "conference_id": "3dv2026",
-      "conference_date": "March 24-27, 2026",
-      "conference_place": "Metro Vancouver, BC, Canada",
-      "official_link": "https://3dvconf.github.io/2026/",
-      "page_title": "International Conference on 3D Vision 2026 | 3DV Image Slideshow",
-      "candidate_count": 31,
-      "ranked_candidate_count": 8,
+      "conference_year": 2027,
+      "conference_id": "3dv2027",
+      "conference_date": "April 6-9, 2027",
+      "conference_place": "Thessaloniki, Greece",
+      "official_link": "https://3dvconf.github.io/2027/",
+      "page_title": "International Conference on 3D Vision 2027 | 3DV Image Slideshow",
+      "candidate_count": 5,
+      "ranked_candidate_count": 4,
       "observed_years": [
         2011,
         2012,
@@ -1499,17 +1469,17 @@
       "status": "existing_target",
       "logo_file": "3DV.png",
       "sha256": "0f430f274a90ea67856c360c594f31845a2ae633b39a6ce75586e2d75bb478a7",
-      "source_url": "https://3dvconf.github.io/img/2026/3dv.ico",
+      "source_url": "https://3dvconf.github.io/img/2027/3dv_ico.png",
       "source_kind": "official_site_candidate",
-      "width": 256,
-      "height": 256,
-      "mime": "image/vnd.microsoft.icon",
-      "score": 122,
+      "width": 564,
+      "height": 564,
+      "mime": "image/png",
+      "score": 160,
       "asset_years": [
-        2026
+        2027
       ],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "PacificVis",
@@ -1575,11 +1545,12 @@
       "conference_place": "Bern, Switzerland",
       "official_link": "https://sgp26.org/",
       "page_title": "SGP 2026 - Symposium on Geometry Processing 2026",
-      "candidate_count": 11,
-      "ranked_candidate_count": 4,
+      "candidate_count": 15,
+      "ranked_candidate_count": 6,
       "observed_years": [
         2025,
-        2026
+        2026,
+        2027
       ],
       "status": "existing_target",
       "logo_file": "SGP.jpg",
@@ -1731,9 +1702,10 @@
       "conference_place": "Bordeaux, France",
       "official_link": "https://egsr2026.inria.fr/",
       "page_title": "EGSR 2026 – The 37th Eurographics Symposium on Rendering",
-      "candidate_count": 15,
+      "candidate_count": 23,
       "ranked_candidate_count": 8,
       "observed_years": [
+        2000,
         2026
       ],
       "status": "existing_target",
@@ -1904,6 +1876,7 @@
       "candidate_count": 21,
       "ranked_candidate_count": 8,
       "observed_years": [
+        2000,
         2025,
         2026
       ],
@@ -2009,12 +1982,12 @@
       "conference_place": "Bari, Italy",
       "official_link": "https://www.ieeeismar.net/2026/",
       "page_title": "",
-      "candidate_count": 19,
+      "candidate_count": 20,
       "ranked_candidate_count": 2,
       "observed_years": [
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "ISMAR.png",
       "sha256": "c092d7b331684cbc61ce780b23295ef096bc991cac1fd7e99f2c223d8c025941",
       "source_url": "https://www.ieeeismar.net/assets/2026/img/IsmarLogo.png",
@@ -2066,32 +2039,32 @@
       "sub": "CG",
       "dblp": "mmasia",
       "source_path": "conference/CG/mmasia.yml",
-      "conference_year": 2025,
-      "conference_id": "mmasia25",
-      "conference_date": "December 9-12, 2025",
-      "conference_place": "Grand Millenium Hotel, Kuala Lumpur, Malaysia",
-      "official_link": "https://mmasia2025.org/",
-      "page_title": "ACM Multimedia Asia 2025",
-      "candidate_count": 15,
-      "ranked_candidate_count": 8,
+      "conference_year": 2026,
+      "conference_id": "mmasia26",
+      "conference_date": "December 15-18, 2026",
+      "conference_place": "VinUniversity, Hanoi, Vietnam",
+      "official_link": "https://www.mmasia2026.org/",
+      "page_title": "ACM Multimedia Asia 2026",
+      "candidate_count": 4,
+      "ranked_candidate_count": 2,
       "observed_years": [
-        2000,
-        2025
+        2024,
+        2026
       ],
-      "status": "existing_target",
-      "logo_file": "MMAsia.png",
-      "sha256": "6025333649993eb16f9527635697516b0f1b764bedb654753d5eaf556308b5e3",
-      "source_url": "https://mmasia2025.org/assets/images/acmsigmm_potrait.png",
+      "status": "downloaded",
+      "logo_file": "MMAsia.webp",
+      "sha256": "c26b3f9074aceb55d11ba95b24efbe997210b6a97537b76425b36765312165d7",
+      "source_url": "https://www.mmasia2026.org/assets/travel/ha-long-bay.webp",
       "source_kind": "official_site_candidate",
-      "width": 886,
-      "height": 612,
-      "mime": "image/png",
-      "score": 80,
+      "width": 1280,
+      "height": 1021,
+      "mime": "image/webp",
+      "score": 70,
       "asset_years": [
-        2025
+        2026
       ],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2025"
+      "annual_update_reason": "source contains latest conference year 2026"
     },
     {
       "title": "MMM",
@@ -2139,7 +2112,7 @@
       "conference_date": "Nov 5-8, 2026",
       "conference_place": "Hengqin, China",
       "official_link": "https://www.ncmmsc.org.cn/",
-      "page_title": "2026��ڶ�ʮһ��ȫ���˻�����ͨѶѧ������",
+      "page_title": "The 21st National Conference on Man-Machine Speech Communication (NCMMSC 2026)",
       "candidate_count": 5,
       "ranked_candidate_count": 3,
       "observed_years": [
@@ -2262,7 +2235,7 @@
       "conference_place": "Los Angeles, California",
       "official_link": "https://s2026.siggraph.org/",
       "page_title": "Home Page - SIGGRAPH 2026",
-      "candidate_count": 120,
+      "candidate_count": 176,
       "ranked_candidate_count": 8,
       "observed_years": [
         2020,
@@ -2533,7 +2506,7 @@
       "observed_years": [
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "CONCUR.png",
       "sha256": "378452d14fa3ec89996d83fe5b5b74d182976eef7fc2f989f46b1fe3fbfa8cda",
       "source_url": "https://confest-2026.github.io/assets/images/uol-white.png",
@@ -2569,7 +2542,7 @@
         2025,
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "FMCAD.svg",
       "sha256": "3241f56c2f9d7f800cfe6f9b2bf8e8c82f3a873baca989ede439701a6c41a6b9",
       "source_url": "https://fmcad.org/FMCAD26/img/logo_inversedcolor.svg",
@@ -3223,24 +3196,14 @@
       "official_link": "https://iswc2026.semanticweb.org/",
       "page_title": "ISWC 2026",
       "candidate_count": 4,
-      "ranked_candidate_count": 1,
+      "ranked_candidate_count": 0,
       "observed_years": [
         2026
       ],
-      "status": "existing_target",
-      "logo_file": "ISWC.png",
-      "sha256": "57d24d1d04424607949eda38991dd837cfb0fcaf5ab99467773c3d43ef7f09b8",
-      "source_url": "https://iswc2026.semanticweb.org/logo.png",
-      "source_kind": "official_site_candidate",
-      "width": 2050,
-      "height": 1556,
-      "mime": "image/png",
-      "score": 65,
-      "asset_years": [
-        2026
-      ],
-      "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "status": "no_logo_candidate",
+      "error": "No usable logo-like image candidates.",
+      "candidate_urls": [],
+      "needs_annual_update": false
     },
     {
       "title": "PAKDD",
@@ -3283,30 +3246,32 @@
       "sub": "DB",
       "dblp": "pkdd",
       "source_path": "conference/DB/pkdd.yml",
-      "conference_year": 2026,
-      "conference_id": "ecmlpkdd2026",
-      "conference_date": "September 7-11, 2026",
-      "conference_place": "Naples, Italy",
-      "official_link": "https://ecmlpkdd.org/2026/",
+      "conference_year": 2027,
+      "conference_id": "ecmlpkdd2027",
+      "conference_date": "September 20-24, 2027",
+      "conference_place": "Eindhoven, The Netherlands",
+      "official_link": "https://ecmlpkdd.org/2027/",
       "page_title": "",
-      "candidate_count": 40,
-      "ranked_candidate_count": 8,
+      "candidate_count": 6,
+      "ranked_candidate_count": 6,
       "observed_years": [
         2000,
-        2026
+        2024,
+        2026,
+        2027
       ],
-      "status": "existing_target",
-      "logo_file": "ECML-PKDD.jpg",
-      "sha256": "13fbe976c3c5231167f35c6482792c6b89fefbf8d1e69c08a759c5cbe685ade8",
-      "source_url": "https://d1u5q3vcv714vh.cloudfront.net/eyJidWNrZXQiOiJlY21scGtkZC1zdG9yYWdlIiwia2V5IjoiV2hhdHNfQXBwX0ltYWdlXzIwMjZfMDJfMjBfYXRfMDVfMzlfNTVfZDcxZjFhMDdhNC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyNDAsImhlaWdodCI6MjQwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6IndoaXRlIn19fQ==",
+      "status": "downloaded",
+      "logo_file": "ECML-PKDD.webp",
+      "sha256": "e49577757e281c4d5a444cd88cd4b2fa494061ec8457473037026990e86fa280",
+      "source_url": "https://d1u5q3vcv714vh.cloudfront.net/eyJidWNrZXQiOiJlY21scGtkZC1zdG9yYWdlIiwia2V5IjoiZWluZGhvdmVuXzBiMDJmOTI2NWMud2VicCJ9",
       "source_kind": "official_site_candidate",
-      "width": 240,
-      "height": 240,
-      "mime": "image/jpeg",
-      "score": 30,
+      "width": 1539,
+      "height": 1024,
+      "mime": "image/webp",
+      "score": 70,
       "asset_years": [],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "RecSys",
@@ -3321,7 +3286,7 @@
       "conference_place": "Minneapolis, Minnesota, USA",
       "official_link": "https://recsys.acm.org/recsys26",
       "page_title": "RecSys 2026 (Minneapolis) - RecSys – RecSys",
-      "candidate_count": 15,
+      "candidate_count": 22,
       "ranked_candidate_count": 8,
       "observed_years": [
         2020,
@@ -3411,17 +3376,17 @@
         2027
       ],
       "status": "downloaded",
-      "logo_file": "SIGKDD.png",
-      "sha256": "2e957f7e638436d60c84f6c4f7cf7d602707c1e1b03c1643b4b40ed5077b4f66",
-      "source_url": "https://kdd2026.kdd.org/wp-content/uploads/2025/06/ICC-1024x595.png",
+      "logo_file": "SIGKDD.webp",
+      "sha256": "71f6a3e31ef6815e55d70725ca49ee2a8ec9d3625ba79871ea7799534efd0823",
+      "source_url": "https://kdd2027.kdd.org/wp-content/uploads/2026/07/sc_mcenery_convention_center.webp",
       "source_kind": "official_site_candidate",
-      "width": 1024,
-      "height": 595,
-      "mime": "image/png",
+      "width": 1280,
+      "height": 600,
+      "mime": "image/webp",
       "score": 80,
       "asset_years": [
-        2025,
-        2026
+        2026,
+        2027
       ],
       "needs_annual_update": true,
       "annual_update_reason": "source contains latest conference year 2027"
@@ -3484,13 +3449,13 @@
         2027
       ],
       "status": "downloaded",
-      "logo_file": "VLDB.jpg",
-      "sha256": "ddc0cbb6c19a64e96d719312cb5739a1fcbac393a406ca86775cbbf16b85fff0",
-      "source_url": "https://www.vldb.org/2027/assets/img/Logo_Synedriou_Final_Outline.jpg",
+      "logo_file": "VLDB.webp",
+      "sha256": "7f36d9133c1d2637acbc93c8f3a45303f114e6f6d0a32e83db4743189c12e732",
+      "source_url": "https://www.vldb.org/2027/assets/img/vldb2027-logo.webp",
       "source_kind": "official_site_candidate",
-      "width": 2480,
-      "height": 1299,
-      "mime": "image/jpeg",
+      "width": 800,
+      "height": 419,
+      "mime": "image/webp",
       "score": 250,
       "asset_years": [
         2027
@@ -3623,7 +3588,7 @@
       "conference_place": "London, UK",
       "official_link": "https://2026.asap-conf.org/",
       "page_title": "IEEE ASAP 2026 Conference",
-      "candidate_count": 30,
+      "candidate_count": 31,
       "ranked_candidate_count": 8,
       "observed_years": [
         2026
@@ -3756,7 +3721,7 @@
       "conference_place": "Taiwan",
       "official_link": "https://www.ats2026.tw/",
       "page_title": "Home | IEEE 35th Asian Test Symposium (ATS 2026)",
-      "candidate_count": 11,
+      "candidate_count": 13,
       "ranked_candidate_count": 8,
       "observed_years": [
         2025,
@@ -3917,7 +3882,7 @@
       "conference_place": "Long Beach, CA",
       "official_link": "https://dac.com/2026/call-for-contributions",
       "page_title": "Call for Contributions | DAC 2026",
-      "candidate_count": 72,
+      "candidate_count": 71,
       "ranked_candidate_count": 8,
       "observed_years": [
         2026
@@ -3925,7 +3890,7 @@
       "status": "existing_target",
       "logo_file": "DAC.webp",
       "sha256": "37cb5d2f3555a114a264e189b24fa0b244e0166f805ae135be0877d95a3a9076",
-      "source_url": "https://confcats-siteplex.s3.amazonaws.com/dac/glide-cache/containers/logos/dac26-logo-lr_simple-1758746568.webp/7a138109dc21f74a3bbd7db060a55f80/dac26-logo-lr_simple-1758746568.webp",
+      "source_url": "https://confcats-siteplex.s3.amazonaws.com/dac/glide-cache/containers/logos/dac26-logo-lr_simple-1758746568.webp/805603945f55cab571117c444c459424/dac26-logo-lr_simple-1758746568.webp",
       "source_kind": "official_site_candidate",
       "width": 1024,
       "height": 375,
@@ -4004,22 +3969,22 @@
       "conference_place": "Chania, Greec",
       "official_link": "https://ets2026.uniwa.gr/",
       "page_title": "IEEE ETS 2026 – 31st European Test Symposium – IEEE European Test Symposium 2026",
-      "candidate_count": 11,
+      "candidate_count": 109,
       "ranked_candidate_count": 8,
       "observed_years": [
         2000,
         2025,
         2026
       ],
-      "status": "existing_target",
-      "logo_file": "ETS.jpg",
-      "sha256": "ec187b945dab5ec8df64720badd8ea2af67a2b0f1e789b683629993b7ef1f83b",
-      "source_url": "https://mlzy6ngsf190.i.optimole.com/cb:h0FD.11e/w:auto/h:auto/q:mauto/f:best/https://ets2026.uniwa.gr/wp-content/uploads/2025/05/logo_ETS2026a_ef.png",
+      "status": "downloaded",
+      "logo_file": "ETS.webp",
+      "sha256": "d667ee559267364630bcea5c4ccdd3d6e535950690749c2fbaf7adc2c8dbb688",
+      "source_url": "https://ets2026.uniwa.gr/wp-content/uploads/2025/05/logo_ETS2026btransparent.webp",
       "source_kind": "official_site_candidate",
-      "width": 200,
-      "height": 100,
-      "mime": "image/jpeg",
-      "score": 197,
+      "width": 1920,
+      "height": 959,
+      "mime": "image/webp",
+      "score": 250,
       "asset_years": [
         2025,
         2026
@@ -4196,12 +4161,12 @@
       "conference_place": "Honolulu, Hawaii, USA",
       "official_link": "https://fpt2026.uark.edu",
       "page_title": "FPT'26",
-      "candidate_count": 24,
+      "candidate_count": 21,
       "ranked_candidate_count": 8,
       "observed_years": [
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "FPT.png",
       "sha256": "b327aff10dd7179ed9e45e29108099ba651ffd37146c17b2797cf8397b00d413",
       "source_url": "https://fpt2026.uark.edu/files/2026/05/Microchip_logo.svg-1536x362.png",
@@ -4229,7 +4194,7 @@
       "conference_place": "Memorial Auditorium, Stanford, Palo Alto, CA",
       "official_link": "https://www.hotchips.org/",
       "page_title": "Hot Chips",
-      "candidate_count": 31,
+      "candidate_count": 33,
       "ranked_candidate_count": 3,
       "observed_years": [
         2013,
@@ -4419,9 +4384,11 @@
       "conference_place": "San Jose, California, USA",
       "official_link": "https://iccad.com/2026",
       "page_title": "Home | ICCAD 2026",
-      "candidate_count": 259,
+      "candidate_count": 316,
       "ranked_candidate_count": 8,
       "observed_years": [
+        2000,
+        2002,
         2026
       ],
       "status": "existing_target",
@@ -4581,33 +4548,34 @@
       "sub": "DS",
       "dblp": "ipps",
       "source_path": "conference/DS/ipdps.yml",
-      "conference_year": 2026,
-      "conference_id": "ipdps26",
-      "conference_date": "May 25-29, 2026",
-      "conference_place": "New Orleans, USA",
+      "conference_year": 2027,
+      "conference_id": "ipdps27",
+      "conference_date": "June 1-5, 2027",
+      "conference_place": "Seattle, USA",
       "official_link": "https://www.ipdps.org/",
       "page_title": "IPDPS - IEEE International Parallel & Distributed Processing Symposium",
-      "candidate_count": 19,
-      "ranked_candidate_count": 8,
+      "candidate_count": 8,
+      "ranked_candidate_count": 7,
       "observed_years": [
         2022,
         2025,
-        2026
+        2026,
+        2027
       ],
       "status": "existing_target",
       "logo_file": "IPDPS.jpg",
       "sha256": "bbb9d463495e4c18a4f2c5bd1ce44e756e5c6b7d38621a8acd29788d8bfdc769",
-      "source_url": "https://www.ipdps.org/ipdps2026/images/ipdps2026-logo-300.jpg",
+      "source_url": "https://www.ipdps.org/ipdps2027/images/ipdps2027-logo-300.jpg",
       "source_kind": "official_site_candidate",
       "width": 300,
-      "height": 85,
+      "height": 95,
       "mime": "image/jpeg",
-      "score": 199,
+      "score": 201,
       "asset_years": [
-        2026
+        2027
       ],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "ISCA",
@@ -4656,7 +4624,7 @@
       "conference_date": "June 6-9, 2027",
       "conference_place": "Bordeaux, France",
       "official_link": "https://2027.ieee-iscas.org/",
-      "page_title": "Home | ISCAS 2027",
+      "page_title": "ISCAS 2027",
       "candidate_count": 116,
       "ranked_candidate_count": 8,
       "observed_years": [
@@ -4737,7 +4705,7 @@
       "conference_place": "Grand Hyatt San Antonio Riverwalk, TX, USA",
       "official_link": "https://www.itctestweek.org/",
       "page_title": "INTERNATIONAL TEST CONFERENCE - International Test Conference Click to open the search input field Scroll to next section Paper-plane Scroll to next section icon-1 icon-2 icon-3 Scroll to next section Book Users User-add Docs Previous Next Previous Next Star-empty Star-empty Star-empty Scroll to top",
-      "candidate_count": 242,
+      "candidate_count": 248,
       "ranked_candidate_count": 8,
       "observed_years": [
         2009,
@@ -4838,32 +4806,44 @@
       "sub": "DS",
       "dblp": "pact",
       "source_path": "conference/DS/pact.yml",
-      "conference_year": 2025,
-      "conference_id": "pact25",
-      "conference_date": "November 3-6, 2025",
-      "conference_place": "Irvine, California, USA",
-      "official_link": "https://pact2025.github.io/",
-      "page_title": "PACT 2025",
-      "candidate_count": 10,
-      "ranked_candidate_count": 7,
+      "conference_year": 2026,
+      "conference_id": "pact26",
+      "conference_date": "October 19-22, 2026",
+      "conference_place": "Chicago, Illinois, USA",
+      "official_link": "https://pact2026.github.io/",
+      "page_title": "PACT 2026",
+      "candidate_count": 11,
+      "ranked_candidate_count": 8,
       "observed_years": [
+        2000,
+        2006,
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2017,
+        2018,
+        2022,
+        2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "status": "existing_target",
       "logo_file": "PACT.png",
       "sha256": "df922144641b6897895e4ab88261d838e50592845b024888c08ab32980799a55",
-      "source_url": "https://pact2025.github.io/images/pact-logo.png",
+      "source_url": "https://pact2026.github.io/images/pact-logo.png",
       "source_kind": "official_site_candidate",
       "width": 240,
       "height": 180,
       "mime": "image/png",
       "score": 205,
       "asset_years": [
-        2025
+        2026
       ],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2025"
+      "annual_update_reason": "source contains latest conference year 2026"
     },
     {
       "title": "PODC",
@@ -4997,7 +4977,7 @@
         2024,
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "SEC-DS.png",
       "sha256": "2ea26f5507ba23d7bf01ded56c5224ae568d8aec5dfb1a45877008cefd73e0bb",
       "source_url": "https://acm-ieee-sec.org/2026/Image/sec-logo.ico",
@@ -5032,7 +5012,7 @@
         2026,
         2027
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "SIGMETRICS.svg",
       "sha256": "236b5c5d84ee36d30911e3216ece8ccdab052fc7afe0f37d7aa09d710b94017d",
       "source_url": "https://www.sigmetrics.org/sigmetrics2027/images/acm_logo.svg",
@@ -5204,7 +5184,7 @@
         2026,
         2027
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "CHI.png",
       "sha256": "6643cd97fb9b4c2d3f3a5341f2767ee95eef8c3fc514c110847c4a8c6b6ead6f",
       "source_url": "https://chi2027.acm.org/wp-content/uploads/2025/03/image.png",
@@ -5267,8 +5247,8 @@
       "conference_place": "Salt Lake City, Utah, USA",
       "official_link": "https://cscw.acm.org/2026/",
       "page_title": "CSCW 2026",
-      "candidate_count": 2,
-      "ranked_candidate_count": 2,
+      "candidate_count": 4,
+      "ranked_candidate_count": 3,
       "observed_years": [
         2026,
         2027
@@ -5421,7 +5401,7 @@
       "conference_place": "Napoli, Italy",
       "official_link": "https://icmi.acm.org/2026/",
       "page_title": "ICMI 2026:: 28th ACM International Conference on Multimodal Interaction",
-      "candidate_count": 25,
+      "candidate_count": 28,
       "ranked_candidate_count": 8,
       "observed_years": [
         2026
@@ -5633,11 +5613,10 @@
       "conference_place": "GM Renaissance Center, Detroit, MI, USA",
       "official_link": "https://uist.acm.org/2026/",
       "page_title": "UIST 2026 - Home",
-      "candidate_count": 12,
-      "ranked_candidate_count": 3,
+      "candidate_count": 17,
+      "ranked_candidate_count": 7,
       "observed_years": [
         2000,
-        2025,
         2026
       ],
       "status": "existing_target",
@@ -6036,8 +6015,8 @@
       "conference_place": "Riverside, CA, USA",
       "official_link": "https://sigspatial2026.sigspatial.org/",
       "page_title": "Home — SIGSPATIAL Conference",
-      "candidate_count": 6,
-      "ranked_candidate_count": 3,
+      "candidate_count": 9,
+      "ranked_candidate_count": 6,
       "observed_years": [
         2026
       ],
@@ -6157,8 +6136,8 @@
       "conference_place": "Singapore",
       "official_link": "https://conferences.sigcomm.org/events/apnet2026/",
       "page_title": "APNET 2026 - APNET 2026",
-      "candidate_count": 32,
-      "ranked_candidate_count": 4,
+      "candidate_count": 37,
+      "ranked_candidate_count": 8,
       "observed_years": [
         2012,
         2016,
@@ -6377,8 +6356,8 @@
       "conference_place": "Tempe, Arizona, USA",
       "official_link": "https://icnp26.cs.ucr.edu/",
       "page_title": "IEEE ICNP 2026",
-      "candidate_count": 5,
-      "ranked_candidate_count": 4,
+      "candidate_count": 7,
+      "ranked_candidate_count": 6,
       "observed_years": [
         2021,
         2022,
@@ -6411,7 +6390,7 @@
       "conference_place": "Karlsruhe, Germany",
       "official_link": "https://conferences.sigcomm.org/imc/2026/",
       "page_title": "ACM IMC 2026",
-      "candidate_count": 8,
+      "candidate_count": 15,
       "ranked_candidate_count": 8,
       "observed_years": [
         2025,
@@ -6420,10 +6399,10 @@
       "status": "existing_target",
       "logo_file": "IMC.svg",
       "sha256": "7285caab3a67d41e5fe264d175cfb185ced0156b9b0e18be1b831da707717c2d",
-      "source_url": "https://conferences.sigcomm.org/imc/2026/img/kit-logo.svg",
+      "source_url": "https://conferences.sigcomm.org/imc/2026/img/comcast-logo.svg",
       "source_kind": "official_site_candidate",
       "width": 1000,
-      "height": 500,
+      "height": 353,
       "mime": "image/svg+xml",
       "score": 180,
       "asset_years": [
@@ -6453,7 +6432,7 @@
         2026,
         2027
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "INFOCOM.webp",
       "sha256": "d7214e2ab9f3516e2ebfc9e8d67ce52779ed5d70e0f1ed5ce6b8705c24b7552d",
       "source_url": "https://infocom2027.ieee-infocom.org/sites/default/files/styles/200wide/public/images/2026-2026-02/ieee-infocom-white.png.webp?itok=8i2cVEcF",
@@ -6592,13 +6571,13 @@
       "sub": "NW",
       "dblp": "mobicom",
       "source_path": "conference/NW/mobicom.yml",
-      "conference_year": 2026,
-      "conference_id": "mobicom26",
-      "conference_date": "November, 2026",
-      "conference_place": "Austin, Texas, USA",
-      "official_link": "https://sigmobile.org/mobicom/2026/",
-      "page_title": "MobiCom 2026: The 32nd Annual International Conference on Mobile Computing and Networking",
-      "candidate_count": 7,
+      "conference_year": 2027,
+      "conference_id": "mobicom27",
+      "conference_date": "Oct 18-22, 2027",
+      "conference_place": "TBD",
+      "official_link": "https://www.sigmobile.org/mobicom/2027/",
+      "page_title": "MobiCom 2027: The 33rd Annual International Conference on Mobile Computing and Networking",
+      "candidate_count": 3,
       "ranked_candidate_count": 2,
       "observed_years": [
         2004,
@@ -6607,22 +6586,23 @@
         2022,
         2024,
         2025,
-        2026
+        2026,
+        2027
       ],
       "status": "existing_target",
       "logo_file": "MobiCom.png",
       "sha256": "708d3c8432712d7da9a1a2fb4f92a3bacdfe58cf6a93d9645ea65c089e960222",
-      "source_url": "https://sigmobile.org/mobicom/2026/images/SIGMOBILE.png",
+      "source_url": "https://www.sigmobile.org/mobicom/2027/images/SIGMOBILE.png",
       "source_kind": "official_site_candidate",
       "width": 461,
       "height": 461,
       "mime": "image/png",
       "score": 67,
       "asset_years": [
-        2026
+        2027
       ],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "MobiHoc",
@@ -6854,24 +6834,24 @@
       "sub": "NW",
       "dblp": "secon",
       "source_path": "conference/NW/secon.yml",
-      "conference_year": 2026,
-      "conference_id": "secon26",
-      "conference_date": "April 27-29, 2026",
-      "conference_place": "Abu Dhabi, UAE",
-      "official_link": "https://secon2026.ieee-secon.org/important-dates",
-      "page_title": "Important dates | IEEE International Conference on Sensing, Communication, and Networking 2026 | IEEE SECON 2026 search",
-      "candidate_count": 20,
-      "ranked_candidate_count": 6,
+      "conference_year": 2027,
+      "conference_id": "secon27",
+      "conference_date": "May 5-7, 2027",
+      "conference_place": "Lisbon, Portugal",
+      "official_link": "https://secon2027.ieee-secon.org/",
+      "page_title": "23rd Annual IEEE International Conference on Sensing, Communication, and Networking 2027 (SECON) | IEEE SECON 2027 search",
+      "candidate_count": 33,
+      "ranked_candidate_count": 8,
       "observed_years": [
         2000,
         2023,
         2025,
-        2026
+        2027
       ],
       "status": "existing_target",
       "logo_file": "SECON.webp",
       "sha256": "7f093d235ed0e80ddc034fbcf749c0927bf0d461539f15f5bacfbc18f1e7b8ff",
-      "source_url": "https://secon2026.ieee-secon.org/sites/default/files/styles/200wide/public/images/2025-2025-05/secon.png.webp?itok=vYvU9BWm",
+      "source_url": "https://secon2027.ieee-secon.org/sites/default/files/styles/200wide/public/images/2025-2025-05/secon.png.webp?itok=vYvU9BWm",
       "source_kind": "official_site_candidate",
       "width": 200,
       "height": 79,
@@ -6879,10 +6859,10 @@
       "score": 115,
       "asset_years": [
         2025,
-        2026
+        2027
       ],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "SenSys",
@@ -6924,13 +6904,13 @@
       "conference_place": "Denver, Colorado, USA",
       "official_link": "https://conferences.sigcomm.org/sigcomm/2026/",
       "page_title": "ACM SIGCOMM 2026",
-      "candidate_count": 55,
+      "candidate_count": 59,
       "ranked_candidate_count": 4,
       "observed_years": [
         2025,
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "SIGCOMM.svg",
       "sha256": "e76ac372cd4ef624cb29b015e43a0cbadeb16641cfce1709b09a663d3e013783",
       "source_url": "https://conferences.sigcomm.org/sigcomm/2026/img/primary/2026.svg",
@@ -6979,7 +6959,7 @@
     },
     {
       "title": "WCNC",
-      "description": "Wireless Communications and Networking Conference",
+      "description": "IEEE Wireless Communications and Networking Conference",
       "ccf_rank": "C",
       "sub": "NW",
       "dblp": "wcnc",
@@ -7062,12 +7042,13 @@
       "conference_place": "Perth, Australia",
       "official_link": "https://acisp-conference.github.io/acisp2026/index.html",
       "page_title": "ACISP 2026 – Australasian Conference on Information Security and Privacy",
-      "candidate_count": 21,
+      "candidate_count": 22,
       "ranked_candidate_count": 8,
       "observed_years": [
         2022,
         2025,
-        2026
+        2026,
+        2027
       ],
       "status": "existing_target",
       "logo_file": "ACISP.jpg",
@@ -7237,7 +7218,7 @@
       "conference_place": "World Forum, Hague, Netherlands",
       "official_link": "https://www.sigsac.org/ccs/CCS2026/",
       "page_title": "ACM CCS 2026",
-      "candidate_count": 9,
+      "candidate_count": 11,
       "ranked_candidate_count": 4,
       "observed_years": [
         2023,
@@ -7517,32 +7498,32 @@
       "sub": "SC",
       "dblp": "dsn",
       "source_path": "conference/SC/dsn.yml",
-      "conference_year": 2026,
-      "conference_id": "dsn26",
-      "conference_date": "June 22-25, 2026",
-      "conference_place": "Charlotte, USA",
-      "official_link": "https://dsn2026.github.io",
-      "page_title": "DSN 2026",
-      "candidate_count": 3,
-      "ranked_candidate_count": 2,
+      "conference_year": 2027,
+      "conference_id": "dsn27",
+      "conference_date": "June 22-25, 2027",
+      "conference_place": "Berlin, Germany",
+      "official_link": "https://dsn2027-berlin.github.io/",
+      "page_title": "DSN 2027 Berlin",
+      "candidate_count": 7,
+      "ranked_candidate_count": 1,
       "observed_years": [
-        2025,
-        2026
+        2026,
+        2027
       ],
       "status": "existing_target",
       "logo_file": "DSN.png",
       "sha256": "7ee5200482b780b2b0e0d2f358bd40cbc0a76e8f050859d80573fc8c555d95a1",
-      "source_url": "https://dsn2026.github.io/images/DSN_logo.png",
+      "source_url": "https://dsn2027-berlin.github.io/assets/logo.png",
       "source_kind": "official_site_candidate",
-      "width": 2080,
-      "height": 1755,
+      "width": 1326,
+      "height": 1043,
       "mime": "image/png",
-      "score": 240,
+      "score": 65,
       "asset_years": [
-        2026
+        2027
       ],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "ESORICS",
@@ -7584,7 +7565,7 @@
         2026,
         2027
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "EUROCRYPT.png",
       "sha256": "ae521ef9696dc3bdfc1df540e99d2537c42932684ff8de7f9832700bc151314f",
       "source_url": "https://iacr.org/img/logo/iacr_wordmark_twitter.png",
@@ -7610,8 +7591,8 @@
       "conference_place": "Lisbon, Portugal",
       "official_link": "https://eurosp2026.ieee-security.org/",
       "page_title": "IEEE European Symposium on Security and Privacy 2026 (EuroS&P)",
-      "candidate_count": 10,
-      "ranked_candidate_count": 7,
+      "candidate_count": 13,
+      "ranked_candidate_count": 8,
       "observed_years": [
         2025,
         2026
@@ -7738,7 +7719,7 @@
       "conference_place": "Reykjavik, Iceland",
       "official_link": "https://icdf2c.eai-conferences.org/2026/",
       "page_title": "EAI ICDF2C 2026 – 17th EAI International Conference on Digital Forensics & Cyber Crime",
-      "candidate_count": 88,
+      "candidate_count": 97,
       "ranked_candidate_count": 8,
       "observed_years": [
         2026
@@ -7871,8 +7852,8 @@
       "conference_place": "Rennes, France",
       "official_link": "https://isc2026.github.io/",
       "page_title": "ISC 2026: Information Security Conference",
-      "candidate_count": 6,
-      "ranked_candidate_count": 4,
+      "candidate_count": 13,
+      "ranked_candidate_count": 8,
       "observed_years": [
         2001,
         2010,
@@ -8041,33 +8022,31 @@
       "sub": "SC",
       "dblp": "pkc",
       "source_path": "conference/SC/pkc.yml",
-      "conference_year": 2026,
-      "conference_id": "pkc26",
-      "conference_date": "May 25-28, 2026",
-      "conference_place": "West Palm Beach, USA",
-      "official_link": "https://pkc.iacr.org/2026/",
-      "page_title": "PKC 2026",
-      "candidate_count": 6,
-      "ranked_candidate_count": 4,
+      "conference_year": 2027,
+      "conference_id": "pkc27",
+      "conference_date": "March 1-4, 2027",
+      "conference_place": "Taipei, Taiwan",
+      "official_link": "https://pkc.iacr.org/2027/",
+      "page_title": "PKC 2027",
+      "candidate_count": 5,
+      "ranked_candidate_count": 3,
       "observed_years": [
         2000,
-        2025,
-        2026
+        2026,
+        2027
       ],
-      "status": "existing_target",
-      "logo_file": "PKC.jpg",
-      "sha256": "0ecf9d720fed4cafb8f131061adfb94d19f28ed986decb42de052f81c8d21f5f",
-      "source_url": "https://pkc.iacr.org/2026/images/PKC2026-logo.jpg",
+      "status": "downloaded",
+      "logo_file": "PKC.png",
+      "sha256": "ae521ef9696dc3bdfc1df540e99d2537c42932684ff8de7f9832700bc151314f",
+      "source_url": "https://iacr.org/img/logo/iacr_wordmark_twitter.png",
       "source_kind": "official_site_candidate",
-      "width": 1704,
-      "height": 712,
-      "mime": "image/jpeg",
-      "score": 250,
-      "asset_years": [
-        2026
-      ],
+      "width": 1910,
+      "height": 1000,
+      "mime": "image/png",
+      "score": 115,
+      "asset_years": [],
       "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "annual_update_reason": "source contains latest conference year 2027"
     },
     {
       "title": "RAID",
@@ -8082,8 +8061,8 @@
       "conference_place": "Lancaster, UK",
       "official_link": "https://raid2026.org",
       "page_title": "RAID 2026 – The 29th International Symposium on Research in Attacks, Intrusions and Defenses",
-      "candidate_count": 8,
-      "ranked_candidate_count": 4,
+      "candidate_count": 9,
+      "ranked_candidate_count": 5,
       "observed_years": [
         2026
       ],
@@ -8192,7 +8171,7 @@
         2026,
         2027
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "SEC-SC.png",
       "sha256": "e450c0fe333e40d6758c9c0713d214b9b222f6271066faf617a17829103a32e3",
       "source_url": "https://ifipsec.org/images/IFIPSec26Logo.png",
@@ -8348,7 +8327,7 @@
         2000,
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "SRDS.svg",
       "sha256": "1cd4b9d6421caff392299238fe9dbb53888001ff904892d988c5bc7ca081d98e",
       "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Uniroma1.svg",
@@ -8457,7 +8436,7 @@
       "conference_place": "Saarbrücken, Germany",
       "official_link": "https://wisec26.events.cispa.de/",
       "page_title": "ACM WiSec 2026",
-      "candidate_count": 12,
+      "candidate_count": 11,
       "ranked_candidate_count": 8,
       "observed_years": [
         2008,
@@ -8676,12 +8655,12 @@
       "conference_place": "Lisbon, Portugal",
       "official_link": "https://cp2026.a4cp.org/",
       "page_title": "CP 2026",
-      "candidate_count": 5,
+      "candidate_count": 6,
       "ranked_candidate_count": 2,
       "observed_years": [
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "CP.jpg",
       "sha256": "491528633e1faaef5316d1b5aa00a7c28459b1edc96b87d436d29456529b720a",
       "source_url": "https://cp2026.a4cp.org/images/lisbon/diego-garcia-CVZ0y7APRtU-unsplash.jpg",
@@ -8761,14 +8740,14 @@
         2027
       ],
       "status": "downloaded",
-      "logo_file": "ECOOP.jpg",
-      "sha256": "daa32ac689001db6a984e2e66c684e436ed8b87008ec19a0e1f02fc40667f3fa",
+      "logo_file": "ECOOP.webp",
+      "sha256": "c96a9993ef453701698c443daeb642090bba58c58531cb26a4a03467219d0525",
       "source_url": "https://2025.ecoop.org/getLogo/e72b6091-a295-4ede-8e98-9a7a9864e971?1726637983000",
       "source_kind": "official_site_candidate",
-      "width": 845,
-      "height": 412,
-      "mime": "image/jpeg;charset=UTF-8",
-      "score": 80,
+      "width": 449,
+      "height": 219,
+      "mime": "image/webp;charset=UTF-8",
+      "score": 49,
       "asset_years": [
         2025
       ],
@@ -8799,7 +8778,7 @@
         2025,
         2026
       ],
-      "status": "downloaded",
+      "status": "existing_target",
       "logo_file": "ESEM.png",
       "sha256": "9842e378d1ced387bf88554e652774af306514302b4063dac37160c2c36aebd0",
       "source_url": "https://conf.researchr.org/getImage/eseiw-2026/orig/Programme+Overview.png",
@@ -9210,26 +9189,12 @@
       "conference_date": "April 26-28, 2026",
       "conference_place": "Seoul, South Korea",
       "official_link": "https://ispass.org/ispass2026/",
-      "page_title": "ISPASS-2026 Home",
-      "candidate_count": 1,
-      "ranked_candidate_count": 1,
+      "status": "page_error",
+      "error": "The read operation timed out",
       "observed_years": [
         2026
       ],
-      "status": "existing_target",
-      "logo_file": "ISPASS.png",
-      "sha256": "ba8047ed9a19d3977f0f133934bc54ae9b6b7d2f916c0913556169405d5f1be8",
-      "source_url": "http://ispass.org/ispass2026/logos/resize_ispass2.png",
-      "source_kind": "official_site_candidate",
-      "width": 400,
-      "height": 220,
-      "mime": "image/png",
-      "score": 127,
-      "asset_years": [
-        2026
-      ],
-      "needs_annual_update": true,
-      "annual_update_reason": "source contains latest conference year 2026"
+      "needs_annual_update": false
     },
     {
       "title": "ISSRE",
@@ -9826,7 +9791,7 @@
       "conference_place": "Clarion Congress Hotel Prague, Prague, Czechia",
       "official_link": "https://sigops.org/s/conferences/sosp/2026/index.html",
       "page_title": "SOSP 2026: The 32nd Symposium on Operating Systems Principles",
-      "candidate_count": 17,
+      "candidate_count": 19,
       "ranked_candidate_count": 2,
       "observed_years": [
         2023,
@@ -9931,16 +9896,17 @@
         2023,
         2024,
         2025,
-        2026
+        2026,
+        2027
       ],
-      "status": "existing_target",
-      "logo_file": "VMCAI.jpg",
-      "sha256": "c36b5e947c7a953c85362ba1e00381865f8cce47467009f4f1d9a13981ba501c",
+      "status": "downloaded",
+      "logo_file": "VMCAI.png",
+      "sha256": "053de8c9c904839134e19d8f7ddaef570343b19f1e93608c8ce0ccf7f51d0332",
       "source_url": "https://conf.researchr.org/getImage/VMCAI-2026/small/LNCS-Logo.png",
       "source_kind": "official_site_candidate",
       "width": 240,
       "height": 89,
-      "mime": "image/jpeg;charset=UTF-8",
+      "mime": "image/webp;charset=UTF-8",
       "score": 23,
       "asset_years": [
         2026
