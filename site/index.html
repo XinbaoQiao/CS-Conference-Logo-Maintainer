@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; script-src 'self'; style-src 'self'; form-action 'self'"
+    >
+    <meta
+      name="description"
+      content="CCF 会议 Logo 索引：按缩写、全名、DBLP key 或会议编号查找维护中的 Logo。"
+    >
+    <title>会议 Logo 索引 · Conference Logo Index</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要内容 / Skip to content</a>
+
+    <div id="app" class="site-shell" data-hook="app" aria-busy="true">
+      <header class="masthead" data-hook="header">
+        <div class="shell masthead__inner">
+          <a class="brand" href="./" aria-label="返回会议 Logo 索引首页 / Conference Logo Index home">
+            <span class="brand__mark" aria-hidden="true">≡</span>
+            <span class="brand__name">
+              <span>会议 Logo 索引</span>
+              <span class="brand__sub">Conference Logo Index</span>
+            </span>
+          </a>
+
+          <nav class="primary-nav" aria-label="主导航 / Primary navigation">
+            <a href="#logo-index">目录 / Index</a>
+            <a href="https://github.com/XinbaoQiao/CS-Conference-Logo-Maintainer/blob/main/reports/logo_update_focus_latest.md">维护报告 / Reports</a>
+            <a href="https://github.com/XinbaoQiao/CS-Conference-Logo-Maintainer/blob/main/README.md">项目说明 / README</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main-content" class="shell main-content">
+        <section class="intro" aria-labelledby="page-title">
+          <div class="intro__copy">
+            <p class="kicker">CCF A / B / C · Maintained archive</p>
+            <h1 id="page-title">找到正确的会议 Logo。</h1>
+            <p class="intro__lede">
+              用缩写、全名、DBLP key、会议编号或研究方向检索。这里展示维护中的本地资产、最新收录届次和来源线索。
+              <span lang="en">Search by acronym, full name, DBLP key, conference ID, or topic.</span>
+            </p>
+          </div>
+          <aside class="intro__note" aria-label="目录说明 / Catalog note">
+            <span class="note__label">ARCHIVE NOTE</span>
+            <p>“最新收录届次”是会议元数据，不等同于 Logo 已被证明属于该年份。</p>
+            <p lang="en">Observed asset-year signals are kept separate from edition metadata.</p>
+          </aside>
+        </section>
+
+        <section class="catalog-overview" aria-labelledby="overview-title">
+          <div class="section-heading section-heading--compact">
+            <div>
+              <p class="kicker">Catalog snapshot</p>
+              <h2 id="overview-title">目录快照 / Catalog status</h2>
+            </div>
+            <p class="section-heading__hint">数据来自部署时的 <code>manifest.json</code>。</p>
+          </div>
+
+          <div class="stats-grid" aria-label="目录统计 / Catalog statistics">
+            <article class="stat-card">
+              <span id="stat-conferences" class="stat-card__value" data-hook="stat-conferences">—</span>
+              <span class="stat-card__label">会议记录 <span lang="en">Conference records</span></span>
+            </article>
+            <article class="stat-card">
+              <span id="stat-logos" class="stat-card__value" data-hook="stat-logos">—</span>
+              <span class="stat-card__label">可用 Logo <span lang="en">Available logos</span></span>
+            </article>
+            <article class="stat-card">
+              <span id="stat-unavailable" class="stat-card__value" data-hook="stat-unavailable">—</span>
+              <span class="stat-card__label">未找到候选 <span lang="en">No verified candidate</span></span>
+            </article>
+            <article class="stat-card stat-card--wide-label">
+              <time id="catalog-updated" class="stat-card__value stat-card__value--date" data-hook="catalog-updated">—</time>
+              <span class="stat-card__label">目录更新 <span lang="en">Catalog refreshed</span></span>
+            </article>
+          </div>
+
+          <p id="catalog-status" class="catalog-status" data-hook="catalog-status" role="status" aria-live="polite" aria-atomic="true">
+            正在等待目录加载。<span lang="en">JavaScript is required to load the catalog.</span>
+          </p>
+        </section>
+
+        <noscript>
+          <div class="no-js-banner" role="note">
+            <strong>需要启用 JavaScript / JavaScript required</strong>
+            <span>本页需要 JavaScript 才能读取 manifest、搜索会议并显示 Logo。请启用后重新加载。</span>
+          </div>
+        </noscript>
+
+        <section id="logo-index" class="index-section" aria-labelledby="index-title">
+          <div class="section-heading">
+            <div>
+              <p class="kicker">Search first, browse second</p>
+              <h2 id="index-title">查找会议 Logo</h2>
+            </div>
+            <p class="section-heading__hint">空查询会浏览整个目录。<span lang="en">An empty query browses the catalog.</span></p>
+          </div>
+
+          <form id="search-form" class="search-panel" data-hook="search-form" role="search">
+            <div class="search-panel__query">
+              <label for="search-input">搜索会议 <span lang="en">Search conferences</span></label>
+              <div class="search-input-wrap">
+                <span class="search-icon" aria-hidden="true">⌕</span>
+                <input
+                  id="search-input"
+                  class="search-input"
+                  data-hook="search-input"
+                  name="q"
+                  type="search"
+                  placeholder="例如 AAAI、artificial intelligence、icml26"
+                  autocomplete="off"
+                  enterkeyhint="search"
+                  spellcheck="false"
+                >
+              </div>
+            </div>
+
+            <div class="filter-grid" aria-label="筛选条件 / Filters">
+              <label class="field">
+                <span>届次 <span lang="en">Edition year</span></span>
+                <select id="year-filter" class="select-input" data-hook="year-filter" name="year">
+                  <option value="all">全部届次 / Any edition</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>CCF 等级 <span lang="en">CCF rank</span></span>
+                <select id="rank-filter" class="select-input" data-hook="rank-filter" name="rank">
+                  <option value="all">全部等级 / All ranks</option>
+                  <option value="A">A 类</option>
+                  <option value="B">B 类</option>
+                  <option value="C">C 类</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Logo 状态 <span lang="en">Availability</span></span>
+                <select id="availability-filter" class="select-input" data-hook="availability-filter" name="availability">
+                  <option value="all">全部状态 / All records</option>
+                  <option value="available">有可用 Logo / Available</option>
+                  <option value="unavailable">无已验证 Logo / Unavailable</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>预览背景 <span lang="en">Preview stage</span></span>
+                <select id="preview-toggle" class="select-input" data-hook="preview-toggle" name="preview">
+                  <option value="dark" selected>深色 / Dark</option>
+                  <option value="light">浅色 / Light</option>
+                  <option value="checker">棋盘 / Checker</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="search-panel__footer">
+              <p class="search-help">按 <kbd>/</kbd> 聚焦搜索，按 <kbd>Esc</kbd> 清除查询。<span lang="en">Keyboard shortcuts are supported.</span></p>
+              <button id="clear-search" class="button button--quiet" data-hook="clear-search" type="button">清除 / Clear</button>
+            </div>
+          </form>
+
+          <div class="results-toolbar">
+            <p id="result-summary" class="result-summary" data-hook="result-summary" role="status" aria-live="polite" aria-atomic="true">
+              目录加载中…<span lang="en">Loading catalog…</span>
+            </p>
+          </div>
+
+          <section id="loading-state" class="state-panel state-panel--loading" data-hook="loading-state" aria-labelledby="loading-title">
+            <div class="state-panel__copy">
+              <p class="kicker">Preparing the index</p>
+              <h3 id="loading-title">正在读取会议目录</h3>
+              <p>请稍候。<span lang="en">Reading the maintained manifest and local assets.</span></p>
+            </div>
+            <div class="skeleton-grid" aria-hidden="true">
+              <div class="skeleton-card"><span></span><span></span><span></span></div>
+              <div class="skeleton-card"><span></span><span></span><span></span></div>
+              <div class="skeleton-card"><span></span><span></span><span></span></div>
+            </div>
+          </section>
+
+          <section id="error-state" class="state-panel state-panel--error" data-hook="error-state" role="alert" aria-labelledby="error-title" hidden>
+            <div class="state-panel__copy">
+              <p class="kicker">Catalog unavailable</p>
+              <h3 id="error-title">目录暂时无法读取</h3>
+              <p>请检查网络或稍后重试。<span lang="en">The catalog could not be loaded.</span> <span class="error-detail" data-error-detail></span></p>
+            </div>
+            <div class="state-panel__actions">
+              <button id="retry-button" class="button button--accent" data-hook="retry-button" type="button">重试 / Retry</button>
+              <a class="button button--quiet" href="./manifest.json">打开原始目录 / Raw manifest</a>
+            </div>
+          </section>
+
+          <section id="empty-state" class="state-panel state-panel--empty" data-hook="empty-state" aria-labelledby="empty-title" hidden>
+            <div class="state-panel__copy">
+              <p class="kicker">No verified match</p>
+              <h3 id="empty-title">没有找到匹配记录</h3>
+              <p>目录中没有与当前条件匹配的已维护记录。<span lang="en">No maintained record matches the current query and filters.</span></p>
+            </div>
+            <button class="button button--quiet" data-action="clear-search" type="button">清除筛选 / Clear filters</button>
+          </section>
+
+          <div id="results" class="results-grid" data-hook="results" aria-live="off" aria-busy="true"></div>
+
+          <div class="results-actions">
+            <button id="load-more" class="button button--accent button--load-more" data-hook="load-more" type="button" hidden>
+              显示更多 / Show more
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="shell site-footer__inner">
+          <div>
+            <p class="footer__title">会议 Logo 索引 <span lang="en">/ Conference Logo Index</span></p>
+            <p class="footer__copy">本目录是维护中的资产集合，不构成商标授权或历史 Logo 证明。</p>
+          </div>
+          <nav class="footer__links" aria-label="资源链接 / Resource links">
+            <a id="raw-manifest-link" data-hook="raw-manifest-link" href="./manifest.json">原始 manifest</a>
+            <a href="https://github.com/XinbaoQiao/CS-Conference-Logo-Maintainer/blob/main/reports/logo_integrity_check_latest.md">完整性报告 / Integrity</a>
+            <a href="https://github.com/XinbaoQiao/CS-Conference-Logo-Maintainer/blob/main/README.md#user-check">使用前检查 / Usage notes</a>
+          </nav>
+        </div>
+      </footer>
+    </div>
+
+    <template id="result-card-template" data-hook="result-card-template">
+      <article class="logo-card" data-result-card>
+        <header class="logo-card__header">
+          <div class="logo-card__identity">
+            <div class="logo-card__eyebrow">
+              <span class="rank-badge" data-field="rank">CCF —</span>
+              <span class="status-badge" data-field="status">状态未知 / Unknown</span>
+            </div>
+            <h3 class="logo-card__title" data-field="title"></h3>
+            <p class="logo-card__description" data-field="description"></p>
+          </div>
+        </header>
+
+        <div class="logo-stage logo-stage--dark" data-stage="dark" data-field="stage" aria-label="Logo preview stage">
+          <span class="stage-fallback" data-field="fallback">暂无已验证 Logo / No verified logo</span>
+          <img class="logo-image" data-field="logo" loading="lazy" decoding="async" alt="">
+        </div>
+
+        <dl class="logo-card__metadata">
+          <div>
+            <dt>最新收录届次 <span lang="en">Latest indexed edition</span></dt>
+            <dd data-field="edition">—</dd>
+          </div>
+          <div>
+            <dt>Logo 年份线索 <span lang="en">Asset-year signal</span></dt>
+            <dd data-field="asset-years">—</dd>
+          </div>
+          <div>
+            <dt>会议方向 <span lang="en">Area</span></dt>
+            <dd data-field="area">—</dd>
+          </div>
+        </dl>
+
+        <footer class="logo-card__actions">
+          <a class="button button--accent" data-field="download" href="#" download>下载 Logo / Download</a>
+          <a class="text-link" data-field="official" href="#" target="_blank" rel="noopener noreferrer" hidden>会议官网 / Official site</a>
+          <a class="text-link" data-field="source" href="#" target="_blank" rel="noopener noreferrer" hidden>Logo 来源 / Source</a>
+        </footer>
+      </article>
+    </template>
+  </body>
+</html>

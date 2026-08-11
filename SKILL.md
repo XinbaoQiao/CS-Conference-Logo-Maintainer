@@ -71,10 +71,13 @@ python conference-logo-maintainer/scripts/fetch_ccf_logos.py \
    - Remove confirmed false positives and regenerate the manifest, update list, README snapshot, and false-positive overrides together.
    - Regenerate `reports/logo_update_focus_latest.md` after each real refresh. Use its year/place-sensitive table as the next incremental-refresh priority list, and use its white-logo watchlist during visual QA.
    - After sync, compare file names and sha256 hashes between the maintainer and Better-Poster-Skill logo directories; `missing`, `extra`, and `mismatch` must be empty.
+   - Run `python scripts/build_site.py --check` after every final manifest change. The public search page must remain buildable from the same `manifest.json` and `assets/logos` without a duplicate catalog.
 
 4. Maintain documents.
    - Keep `conference-logo-maintainer/update_list.md` generated from the manifest.
    - Update `conference-logo-maintainer/README.md` when the workflow, source, status summary, or validation commands change.
+   - Keep the README's live-site link, `site/`, and `.github/workflows/pages.yml` aligned when public search behavior or deployment changes.
+   - Treat `conference_year` as the latest indexed conference edition, not a proven Logo year. Historical-year retrieval requires an explicit archived asset record; never infer it from `observed_years` or a current filename.
    - Remove `manifest.batch-*.json` and `update_list.batch-*.md` after a successful final merge unless debugging an interrupted run.
 
 ## Output Contracts

@@ -6,6 +6,7 @@ Maintain CCF conference logo assets with a one-shot code agent workflow.
 
 <p>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-0f766e"></a>
+  <a href="https://xinbaoqiao.github.io/CS-Conference-Logo-Maintainer/"><img alt="Live Logo Finder" src="https://img.shields.io/badge/live-Logo%20Finder-e3a329"></a>
   <img alt="Scope: CCF A/B/C" src="https://img.shields.io/badge/scope-CCF%20A%2FB%2FC-2563eb">
   <img alt="Mode: One Shot" src="https://img.shields.io/badge/mode-One--Shot-7c2d92">
   <img alt="Output: Logos and Reports" src="https://img.shields.io/badge/output-Logos%20%2B%20Reports-a21d16">
@@ -14,6 +15,7 @@ Maintain CCF conference logo assets with a one-shot code agent workflow.
 <p>
   <a href="#english">English</a> ·
   <a href="#zh-cn">中文</a> ·
+  <a href="https://xinbaoqiao.github.io/CS-Conference-Logo-Maintainer/">Live Logo Index</a> ·
   <a href="#quick-start">Quick Start</a> ·
   <a href="#master-prompt">Master Prompt</a>
 </p>
@@ -29,6 +31,14 @@ CS Conference Logo Maintainer helps a code agent maintain CCF conference logo as
 It is designed for users who want a clean, reusable logo asset set without manually visiting hundreds of conference websites or running maintenance scripts themselves.
 
 If you do not want to maintain the assets yourself, bookmark this repository and its reports; the included GitHub Actions workflow refreshes year/city/venue-sensitive logos to a staging branch on the first day of each month, merges that branch into `main` on the 10th, and runs a full logo refresh once per year.
+
+### Live Logo Index
+
+**[Open the conference Logo Finder →](https://xinbaoqiao.github.io/CS-Conference-Logo-Maintainer/)**
+
+Search by acronym, full conference name, DBLP key, conference ID, or topic; then filter by the latest indexed conference edition and CCF rank. Available records link directly to the maintained local asset, the conference site, and the recorded logo source.
+
+The site reads `manifest.json` and `assets/logos/` directly from the Pages artifact, so there is no second conference list to keep in sync. `conference_year` is shown as the latest indexed conference edition, not as proof that the image itself was created for that year. Historical-year retrieval will require a future manifest and UI extension that explicitly records each archived year-to-file mapping; the current collection is a latest-snapshot catalog.
 
 ### Highlights
 
@@ -71,6 +81,7 @@ To enable email reminders, configure the repository variable `NOTIFY_EMAIL` and 
 |---|---|
 | Assets | Maintained CCF conference logo files under `assets/logos` |
 | Metadata | A machine-readable manifest for downstream automation |
+| Website | A dependency-free search interface deployed from the same manifest and assets |
 | Checklist | A human-readable maintenance list for missing or yearly-sensitive logos |
 | Reports | Yearly-refresh priorities, white-logo warnings, and integrity audit results |
 | Integration | Optional asset sync for Better-Poster-Skill when both projects are in the same workspace |
@@ -102,6 +113,16 @@ Please complete the whole workflow automatically:
 ```
 
 The agent will use the bundled instructions to complete the maintenance run and report the final result.
+
+To publish the search interface, select **Settings → Pages → Build and deployment → GitHub Actions** once. The bundled Pages workflow then rebuilds the site whenever `main` receives changes to the UI, manifest, or logo assets. For a local artifact check, run:
+
+```bash
+python scripts/build_site.py --check
+python scripts/build_site.py --output .site-preview
+python -m http.server --directory .site-preview 8000
+```
+
+Remove `.site-preview` after reviewing it; the directory is build output and must not be committed.
 
 <a id="master-prompt"></a>
 
@@ -180,6 +201,14 @@ CS Conference Logo Maintainer 用于帮助 code agent 端到端维护 CCF 会议
 
 如果你不想自己维护这些 Logo，可以收藏本仓库和报告；仓库内置的 GitHub Actions 会在每月 1 号把带年份、城市、地点信息的重点 Logo 刷新到暂存分支，在每月 10 号自动合并到 `main`，并每年执行一次全量 Logo 更新。
 
+### 在线 Logo 检索
+
+**[打开会议 Logo Finder →](https://xinbaoqiao.github.io/CS-Conference-Logo-Maintainer/)**
+
+可以使用会议简称、完整英文名、DBLP key、会议 ID 或研究主题检索，再按最新收录的会议届次和 CCF 等级筛选。存在可靠资产时，结果会直接提供本地 Logo 下载、会议官网和已记录的 Logo 来源。
+
+网站直接读取 Pages 构建产物中的 `manifest.json` 和 `assets/logos/`，不会再维护第二份会议清单。页面把 `conference_year` 明确显示为“最新收录届次”，不会把它当成 Logo 图片年份的证明。历史年份检索需要未来同时扩展 manifest 与界面，明确记录每个归档年份到文件的映射；当前数据是最新快照目录。
+
 ### 核心特点
 
 | 特点 | 价值 |
@@ -221,6 +250,7 @@ CS Conference Logo Maintainer 用于帮助 code agent 端到端维护 CCF 会议
 |---|---|
 | 资产 | `assets/logos` 下维护好的 CCF 会议 Logo 文件 |
 | 元数据 | 方便下游自动化读取的机器可读 manifest |
+| 网站 | 与 manifest 和 Logo 资产同源维护的无依赖检索页面 |
 | 清单 | 面向人工维护的缺失项和年度敏感 Logo 检查列表 |
 | 报告 | 年度更新优先级、白色 Logo 提醒和完整性审计结果 |
 | 集成 | 当同一工作区存在 Better-Poster-Skill 时，可自动同步 Logo 资产 |
@@ -250,6 +280,16 @@ Please complete the whole workflow automatically:
 ```
 
 agent 会根据仓库内置说明完成维护，并汇报最终结果。
+
+首次发布检索网站时，需要在 GitHub 仓库中选择 **Settings → Pages → Build and deployment → GitHub Actions**。此后只要 `main` 中的界面、manifest 或 Logo 资产变化，仓库内置的 Pages workflow 会自动重新构建。可用以下命令做本地预览：
+
+```bash
+python scripts/build_site.py --check
+python scripts/build_site.py --output .site-preview
+python -m http.server --directory .site-preview 8000
+```
+
+检查完成后请删除 `.site-preview`；它是构建产物，不应提交到仓库。
 
 ### Master Prompt
 
