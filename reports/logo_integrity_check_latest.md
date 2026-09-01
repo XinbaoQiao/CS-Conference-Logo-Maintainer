@@ -21,7 +21,7 @@ _None._
 
 | Conference | Source path | Logo | Source URL | Matched terms |
 | --- | --- | --- | --- | --- |
-| CT-RSA | conference/SC/ct-rsa.yml | CT-RSA.svg | https://repo.wsu.edu/favicon/icon.svg | favicon |
+| CHI | conference/HI/chi.yml | CHI.png | https://chi2027.acm.org/wp-content/uploads/2026/04/cropped-favicon-512x512-2-180x180.png | favicon |
 | SRDS | conference/SC/srds.yml | SRDS.svg | https://upload.wikimedia.org/wikipedia/commons/0/0d/Uniroma1.svg | wikimedia |
 | CP | conference/SE/cp.yml | CP.jpg | https://cp2026.a4cp.org/images/lisbon/diego-garcia-CVZ0y7APRtU-unsplash.jpg | unsplash |
 
